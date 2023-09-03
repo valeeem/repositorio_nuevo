@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eliteCrochet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Elite Crochet</title>
+</head>
+<header>
+    <h1>Elite Crochet</h1>
+    <nav>
+        <nav class="navbar bg-body-tertiary fixed-top esconder">
+            <div class="container-fluid">
+                <h1 class="mobile">Elite Crochet</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Elite Crochet</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Proyectos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="./pages/proyectosPrincipiantes.html">Principiantes</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="./pages/proyectosIntermedios.html">Intermedios</a></li>
+                                    <li><a class="dropdown-item" href="./pages/proyectosAvanzados.html">Avanzados</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./pages/conseguirMateriales.html"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Conseguir Materiales
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./pages/agujas.html">Agujas</a></li>
+                                    <li><a class="dropdown-item" href="./pages/lanas.html">Lanas</a></li>
+                                    <li><a class="dropdown-item" href="./pages/patrones.html">Patrones</a></li>
+                                    <li><a class="dropdown-item" href="./pages/">Accesorios</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./pages/nuestrasCreaciones.html">Nuestras Creaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./pages/nosotros.html">Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#">Proyectos</a></button>
+                <div class="dropdown-content">
+                    <a href="./pages/proyectosPrincipiantes.html">Principiantes</a>
+                    <a href="./pages/proyectosIntermedios.html">Intermedios</a>
+                    <a href="./pages/proyectosAvanzados.html">Avanzados</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="./pages/conseguirMateriales.html">Conseguir Materiales</a></button>
+                <div class="dropdown-content">
+                    <a href="./pages/agujas.html">Agujas</a>
+                    <a href="./pages/lanas.html">Lanas</a>
+                    <a href="./pages/patrones.html">Patrones</a>
+                    <a href="./pages/accesorios.html">Accesorios</a>
+                </div>
+            </div>
+            <li><a href="./pages/nuestrasCreaciones.html">Nuestras Creaciones</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section class="bienvenidos">
+            <img src="./img/Lanas-Inicio.webp" alt="Imagen-inicio-lanas" id="imagenLanasInicio"
+                class="imagenLanasInicio ajustar" />
+
+            <h2 class="bienvenidos-titulo">Bienvenidos</h2>
+
+            <p class="bienvenidos-texto">En esta página encontrarás patrones, posteos de Instagram y recomendaciones para comenzar a tejer.
+                Nuestros
+                recomendaciones para tejer están en <a href="./pages/proyectosPrincipal.html">proyectos</a>, divididos
+                en <a href="/pages/proyectosPrincipal.html">Principiantes,</a>
+                <a href="./pages/proyectosIntermedios.html">Intermedios</a> y <a
+                    href="./pages/proyectosAvanzados.html">Avanzados</a>, y en cada uno de ellos encontrarás diferentes
+                posteos divididos en Ropa, Peluches
+                y Textiles y Decoración. En nuestra sección <a href="#proyectoSemanal">Proyecto de la Semana</a>
+                encontrarás todas las semanas nuestro proyecto favorito! Incluiremos videos con explicaciones detalladas
+                de como crear diferentes tejidos.
+                Nuestra tienda web estará disponible pronto, pero de momento les dejamos en <a
+                    href="./pages/conseguirMateriales.html">Conseguir Materiales</a> a nuestras
+                lanerías de confianza.
+                Mencionando nuestra página tienes 10% de descuento en cualquiera de ellas.
+            </p>
+        </section>
+        <div>
+            <section class="bienvenidos proyectoSemanal">
+                <div class="textoYVideo">
+                    <iframe class="video miniatura3" width="560" height="315" src="https://www.youtube.com/embed/VtQjWlf8NKA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen alt="video-de-youtube"></iframe>
+                    <h2 class="bienvenidos-titulo proyecto" id="proyectoSemanal">Proyecto de la Semana</h2>
+                    <div class="proyecto-semana">
+                        <p>Todas las semanas cargaremos un nuevo video a esta sección para que puedas llevar a cabo
+                            diferentes proyectos!
+                            Esta semana tenemos un top con forma de tela de araña, en preparación para Halloween!
+
+                            Aceptamos recomendaciones es elitecrochet@email.com
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Esta página es para uso de práctica, sin fines de lucro.</p>
+    </footer>
+</body>
+
+</html>
