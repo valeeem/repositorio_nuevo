@@ -28,6 +28,16 @@ h1 {
   padding-left: 20px;
 }
 
+h2 {
+  color: #733796;
+  font-size: 45px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  display: block;
+  padding-left: 20px;
+}
+
 nav {
   padding-right: 100px;
 }
@@ -51,15 +61,18 @@ nav > ul > li {
   padding-right: 25px;
 }
 
-nav > ul > li:hover {
-  cursor: pointer;
-}
-
-nav > ul > li > a:hover {
+nav ul .dropdown .dropbtn:hover {
   color: whitesmoke;
 }
 
-li > a {
+nav ul li:hover {
+  cursor: pointer;
+}
+nav ul li:hover a:hover {
+  color: whitesmoke;
+}
+
+li a {
   color: #2e1572;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -95,9 +108,6 @@ li > a {
     display: none;
   }
   ul a {
-    display: none;
-  }
-  h1 {
     display: none;
   }
   .mobile {
@@ -188,7 +198,6 @@ li > a {
   border: none;
   text-decoration: none;
 }
-
 .dropbtn a {
   text-decoration: none;
 }
